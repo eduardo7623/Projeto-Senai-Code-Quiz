@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #17152D;
+    color: white;
+    min-height: 100vh;
+}
+
+
+/* VOLTAR */
+
+.voltar {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    color: #8B5CF6;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    text-align: center;
+    padding-top: 60px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #b8b5c9;
+}
+
+
+/* ÁREA DE CONTATO */
+
+.contato {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    max-width: 1000px;
+
+    margin: 50px auto;
+}
+
+
+/* INFORMAÇÕES */
+
+.informacoes {
+    width: 400px;
+
+    background-color: #211e3d;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #38325e;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.informacoes h2 {
+    color: #8B5CF6;
+    margin-bottom: 15px;
+}
+
+.informacoes > p {
+    color: #c4c1d0;
+    margin-bottom: 30px;
+}
+
+
+/* INFORMAÇÕES INDIVIDUAIS */
+
+.info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+
+    margin-bottom: 25px;
+}
+
+.info strong {
+    color: #2563EB;
+}
+
+.info span {
+    color: #d5d2df;
+}
+
+
+/* FORMULÁRIO */
+
+.formulario {
+    width: 450px;
+
+    background-color: #211e3d;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #38325e;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.formulario h2 {
+    color: #8B5CF6;
+
+    margin-bottom: 25px;
+}
+
+
+/* CAMPOS */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+input,
+textarea {
+    background-color: #17152D;
+
+    border: 1px solid #40396a;
+
+    border-radius: 7px;
+
+    padding: 12px;
+
+    color: white;
+
+    margin-bottom: 18px;
+
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+
+    border-color: #8B5CF6;
+
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+}
+
+textarea {
+    height: 120px;
+
+    resize: none;
+}
+
+
+/* BOTÃO */
+
+button {
+    background-color: #2563EB;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8B5CF6;
+
+    box-shadow: 0 0 15px #8B5CF6;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+
+    color: #77738b;
+
+    padding: 20px;
+}

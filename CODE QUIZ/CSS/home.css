@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #17152d;
+}
+
+.navbar {
+    height: 80px;
+    background: linear-gradient(90deg, #17152d, #2563eb);
+
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Logo no canto esquerdo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px;
+    height: auto;
+}
+
+/* Menu */
+.navbar ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+
+    margin: auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Efeito ao passar o mouse */
+.navbar ul a {
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.navbar ul a:hover {
+    background-color: #8b5cf6;
+    box-shadow: 0 0 12px #8b5cf6;
+}
+
+/*Mais sobre o Site */
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.logo2 {
+  width: 100px;
+  max-width: 100%;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.hero h1 {
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #7c3aed;
+  font-weight: bold;
+}
+
+.hero p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #7c3aed, #2563eb);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/*     ---       */
+
+
+:root {
+  --bg: #16142a;
+  --bg-soft: #1f1c3a;
+  --text: #f3f4f6;
+  --muted: #b4b8c8;
+  --purple: #7c3aed;
+  --blue: #2563eb;
+  --cyan: #22d3ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+.nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  height: 80px;
+  padding: 0 32px;
+  background: linear-gradient(90deg, var(--bg) 0%, #1e3a8a 60%, var(--blue) 100%);
+}
+
+.nav-brand {
+  justify-self: start;
+}
+
+.nav-logo {
+  height: 64px; /* mude o tamanho da logo aqui */
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  color: var(--cyan);
+}
+
+.nav-cta {
+  justify-self: end;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--text);
+  color: var(--bg);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 64px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 380px;
+  filter: drop-shadow(0 0 60px rgba(124, 58, 237, 0.45));
+}
+
+.hero-content h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.15;
+}
+
+.hero-sub {
+  margin: 0 0 32px;
+  max-width: 46ch;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 320px;
+}
+
+.btn {
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s, background 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:focus-visible,
+.nav-cta:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--purple), var(--blue));
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1px solid #4b4870;
+  color: var(--text);
+}
+
+/* ---------- FAIXA DE TECNOLOGIAS ---------- */
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px 32px;
+  background: var(--bg-soft);
+  border-top: 1px solid #2c2952;
+}
+
+.tech {
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid #34305e;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+
+
+
+/* ---------- Saudação (usuário logado) ---------- */
+.welcome {
+  margin: 0 0 12px;
+  color: var(--cyan);
+  font-weight: 600;
+}
