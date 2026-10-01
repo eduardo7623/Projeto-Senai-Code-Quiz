@@ -15,13 +15,13 @@
    <header>
     <nav class="navbar">
 
-        <a href="index.html" class="logo">
-            <img src="imagens/logo-codequiz.png" alt="CodeQuiz">
+        <a href="home.php" class="logo">
+            <img src="./img/code-quiz.png" alt="CodeQuiz">
         </a>
 
         <ul>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Quiz</a></li>
+            <li><a href="quiz.php">Quiz</a></li>
         </ul>
 
     </nav>

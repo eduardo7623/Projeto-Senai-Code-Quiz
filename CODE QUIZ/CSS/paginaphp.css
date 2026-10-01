@@ -89,7 +89,6 @@ body {
 .sobre {
     max-width: 1100px;
     margin: 60px auto;
-
     display: flex;
     gap: 40px;
     align-items: center;
@@ -122,8 +121,6 @@ body {
 }
 
 
-
-
 /* linha */
 
 .linhas  {
@@ -138,38 +135,6 @@ body {
 
 .linkk .h3{
     color: #fcfdfd;
-}
-
-/* CAIXA */
-
-.caixa {
-    flex: 1;
-
-    padding: 35px;
-
-    background-color: #211D45;
-    border: 1px solid #4C3B8F;
-    border-radius: 15px;
-
-    text-align: center;
-
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
-}
-
-.caixa h2 {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
-.caixa h3 {
-    color: #8B5CF6;
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.caixa p {
-    color: #CBD5E1;
-    line-height: 1.6;
 }
 
 
