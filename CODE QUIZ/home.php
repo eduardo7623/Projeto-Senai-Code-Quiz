@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeQuiz | Aprenda programação com quizzes</title>
-    <link rel="stylesheet" href="./CSS/stylehome.css">
+    <link rel="stylesheet" href="./CSS/home.css">
 </head>
 <body>
     <nav class="nav">
@@ -16,6 +16,7 @@
             <a href="services.php">Services</a>
             <a href="quiz.php">Quiz</a>
             <a href="contato.php">Contato</a>
+            <a href="paginaphp.php">php</a>
         </div>
 
         <a href="quiz.php" class="nav-cta">Começar agora</a>

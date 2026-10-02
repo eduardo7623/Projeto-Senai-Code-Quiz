@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Introdução a PHP - Code Quiz</title>
+    <title>Introdução a HTML - Code Quiz</title>
 
-    <link rel="stylesheet" href="css/paginaphp.css">
+    <link rel="stylesheet" href=".//CSS/paginahtml.css">
 </head>
 
 <body>
@@ -30,10 +30,10 @@
     <main>
 
         <section class="inicio">
-            <h1>Introdução ao PHP</h1>
+            <h1>Introdução ao HTML</h1>
 
             <p>
-                Aprenda, pratique e evolua no mundo da programação.
+                HTML é a linguagem usada para estruturar o conteúdo de uma página web.
             </p>
         </section>
 
@@ -41,20 +41,38 @@
         <section class="sobre">
 
             <div class="texto">
-                <h2>O que é PHP?</h2>
+                <h2>O que significa HTML?</h2>
 
                 <p>
-                     PHP é uma linguagem de programação muito utilizada para criar sites e sistemas que precisam de informações dinâmicas. Diferente do HTML e do CSS, o PHP consegue executar comandos no servidor e tomar decisões de acordo com as informações recebidas.
-
-Com PHP, podemos criar sistemas de login, cadastros, páginas personalizadas, formulários e muito mais.
+                     A sigla HTML significa HyperText Markup Language, que em português significa Linguagem de Marcação de Hipertexto.
 
                 </p><br>
 
 
-                <h2>Como funciona?</h2>
-                <p>Quando uma pessoa acessa uma página PHP, o servidor executa os comandos presentes no código. Depois disso, o resultado é enviado para o navegador.
+                <h2>Como funciona o HTML?</h2>
+                <p>O HTML utiliza tags para organizar os elementos de uma página.
 
-Por isso, o usuário normalmente não vê o código PHP, mas apenas o resultado produzido por ele.</p><br>
+Uma tag normalmente possui uma abertura e um fechamento:
+
+<p>Olá, mundo!</p>
+
+<p>Nesse exemplo:</p>
+
+<p>
+
+é a tag de abertura.
+
+</p>
+<p>
+é a tag de fechamento.
+</p>
+
+<p>
+Olá, mundo!
+
+é o conteúdo.
+
+Juntos, eles formam um elemento HTML.</p><br>
 
                 <h2>Primeiros passos</h2>
 
@@ -113,9 +131,9 @@ Por isso, o usuário normalmente não vê o código PHP, mas apenas o resultado 
                 <P>Se quiser se aprofundar mais nos conceitos clique no link para a documentação do PHP</P>
 
 
-                <h3>Documentação PHP:</h3>
-                <a href="https://www.php.net/manual/pt_BR/" target="_blank" class="botao">
-                PHP
+                <h3>Documentação HTML:</h3>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" class="botao">
+                HTML
                 </a>
 
             </div>
